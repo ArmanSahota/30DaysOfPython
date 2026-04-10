@@ -1,0 +1,11 @@
+print("Hello, World!")
+print(2 + 3)
+print(3 - 1)
+print(4 * 5)
+print(10 / 2)
+print("The result of 2 + 3 is:", 2 + 3)
+
+print(type(2 + 3))
+print(type("Hello, World!"))
+print(type(3.14))
+print(type({'name' : 'Arman' }))
