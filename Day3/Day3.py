@@ -66,11 +66,13 @@ print('''1 1 1 1 1
 4 1 4 16 64
 5 1 5 25 125 ''')
 
+x1 = int(input('Enter x1'))
+x2 = int(input('Enter x2'))
+y1 = int(input('Enter y1'))
+y2 = int(input('Enter y2'))
 
-x = 0
-y = complex(2x -2)
-print(y)
-
-
+def slope(x1, y1, x2, y2):
+    return float() (y2 - y1)/ (x2 - x1)
+print('slope is ', slope(x1, y1, x2, y2))
 
 

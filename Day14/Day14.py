@@ -143,13 +143,13 @@ def sort_country(arr):
     # Sort by capital
     by_capital = sorted(arr, key=lambda x: x['capital'])
     print("\nSorted by capital:")
-    for c in by_capital[:10]:
+    for c in by_capital:
         print(f"  {c['capital']} - {c['name']}")
     
     # Sort by population (descending)
     by_population = sorted(arr, key=lambda x: x['population'], reverse=True)
     print("\nSorted by population:")
-    for c in by_population[:10]:
+    for c in by_population:
         print(f"  {c['name']}: {c['population']:,}")
     
     return by_name, by_capital, by_population
@@ -182,19 +182,4 @@ def most_populated_countries(arr, n=10):
     return sorted_countries[:n]
 
 most_populated_countries(countries_data.countries_data)
-
-
-def higher_order_function(type): # a higher order function returning a function
-    if type == 'land':
-        return LandSearch
-    elif type == 'ia':
-        return Ia_search
-    elif type == 'island':
-        return island_search
-
-result = higher_order_function('island')
-print(result(countries.countries))   
-result = higher_order_function('ia')
-print(result(countries.countries))
-result = higher_order_function('land')
-print(result(countries.countries))      
+ 
