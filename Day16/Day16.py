@@ -14,3 +14,15 @@ t2 = datetime(year = 2027, month = 1, day = 1, hour = 0, minute = 0, second = 0)
 print(t2 - t1)
 t3 = datetime(year=1970, month= 1, day= 1)
 print(t1 - t3)
+
+#i think date time module can be used to keep accurate track of data. When you look at a db there are always time stamps
+#next to the data like a timestamp for when it was created or in logs there might be a time stamp for when things were deleted ect. 
+
+[0,0,1,0,0,0,0,1,0,0,0,0,0]
+[0,0,0,0,0,0,0,1,1,1,0,0,0]
+[0,1,1,0,1,0,0,0,0,0,0,0,0]
+[0,1,0,0,1,1,0,0,1,0,1,0,0]
+[0,1,0,0,1,1,0,0,1,1,1,0,0]
+[0,0,0,0,0,0,0,0,0,0,1,0,0]
+[0,0,0,0,0,0,0,1,1,1,0,0,0]
+[0,0,0,0,0,0,0,1,1,0,0,0,0]
